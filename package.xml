@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package>
+    <name>Checkout_Discount_Code</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri=" http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add coupon code as a  step of the checkout process</summary>
+    <description>This is &lt;a href="http://www.vnecoms.com/"&gt;Magento Extension&lt;/a&gt; which allow to add new step after Shipping Information step of your checkout process.&#xD;
+&lt;h3&gt;Installation Instructions&lt;/h3&gt;&#xD;
+&lt;strong&gt;1.	Disable Compilation&lt;/strong&gt;&lt;br /&gt;&#xD;
+ Log into the Magento Admin Panel and go to System, Tools, Compilation.  Then, disable the compilation, this will let you run the compilation process again.&lt;br /&gt;&#xD;
+&lt;br /&gt;&#xD;
+&lt;strong&gt;2.	Install the Extension Extension, via Magento Connect &lt;/strong&gt;&lt;br /&gt;&#xD;
+First, get the extension key from this page&#xD;
+Then, go to System, Magento Connect, Magento Connect Manager and use your admin account to login again.&#xD;
+Once you are logged in, paste the extension key in the field named &amp;quot;Paste extension key to install&amp;quot;, then click Install.&#xD;
+After installation, click the Proceed button and the extension will be installed automatically.&lt;br /&gt;&#xD;
+&lt;br /&gt;&#xD;
+&lt;strong&gt;3.	Clear Cache&lt;/strong&gt;&lt;br /&gt;&#xD;
+ After clearing the cache, logout and then log back into the Magento Admin Panel. After this step FuturePay will be successfully installed and ready for configuration.&lt;br /&gt;&#xD;
+&lt;br /&gt;&#xD;
+&lt;strong&gt;&lt;u&gt;Configure Extension&lt;/u&gt;&lt;/strong&gt;&lt;br /&gt;&#xD;
+1. Go to System, Configuration. Then, from the left sideboard, click Checkout Discount Code under VNECOMS section.&lt;br /&gt;&#xD;
+2. Then, expand the General section.&lt;br /&gt;&#xD;
+3. Set the  Enable module field to &amp;quot;Yes&amp;quot;.&lt;br /&gt;&#xD;
+&lt;br /&gt;&#xD;
+ Congratulations! After completing this last step, you will be able to see new step on your checkout process.&lt;br /&gt;&lt;br /&gt;&#xD;
+Boot your store by using &lt;a href="http://www.vnecoms.com"&gt;Magento Extensions&lt;/a&gt;, &lt;a href="http://www.vnecoms.com"&gt;Magento Modules&lt;/a&gt;, &lt;a href="http://www.vnecoms.com"&gt;Magento Service&lt;/a&gt; By VnEcoms.&lt;br /&gt;&#xD;
+</description>
+    <notes>nothing</notes>
+    <authors><author><name>VnEcoms</name><user>vnecoms</user><email>hungvt@vnecoms.com</email></author></authors>
+    <date>2015-08-20</date>
+    <time>08:13:31</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="VES_CheckoutDiscountCode.xml" hash="56f1dc648d258e3ec7f396598075d242"/></dir></target><target name="magecommunity"><dir name="VES"><dir name="CheckoutDiscountCode"><dir name="Block"><dir name="Checkout"><file name="Cart.php" hash="86895a529d2e71e9e7ffb17a6b31723e"/><dir name="Onepage"><file name="Discountcode.php" hash="2db3b92a401d23903b32c5a33d94dd47"/><file name="Progress.php" hash="f700e93a43286814691b4eac4701cb95"/></dir><file name="Onepage.php" hash="6da14079eaef0cf239f4ff89f1593203"/></dir></dir><dir name="Helper"><file name="Data.php" hash="bc58cc96c521e3c6e399d20e4abaa781"/></dir><dir name="Model"><file name="Observer.php" hash="5d528186090075d867b0f0f404e7597c"/></dir><dir name="controllers"><file name="IndexController.php" hash="55639cfc9101929924e79a6ad92e5899"/></dir><dir name="etc"><file name="config.xml" hash="45cf2f8fc325389081553792fac9e423"/><file name="system.xml" hash="d47956717c52a534a3a5b43803f743dc"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ves_checkoutdiscountcode.xml" hash="04532dd09586b346ff36673b068f78cf"/></dir><dir name="template"><dir name="ves_checkoutcouponcode"><dir name="checkout"><dir name="onepage"><file name="discountcode.phtml" hash="6de8add389c0ce5a5aaa2e2a39eb6274"/><file name="progress.phtml" hash="9bbb74039a66f3397394e6be89db5536"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="ves_checkoutdiscountcode"><file name="checkout.js" hash="30e287511e6f459f600254f6c8b024ff"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

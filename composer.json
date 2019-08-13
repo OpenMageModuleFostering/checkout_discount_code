@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Checkout_Discount_Code",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Add coupon code as a  step of the checkout process",
+    "authors": [
+    {
+        "name": "VnEcoms",
+        "email": "hungvt@vnecoms.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
