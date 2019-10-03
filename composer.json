@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Checkout_Discount_Code",
+    "name": "openmage-module-fostering\/checkout_discount_code",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
